@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		for(char i = 'a'; i <= 'z'; i++)
+		{
+			System.out.print(i + " ");
+		}
+		
+		int a = 200;
+		System.out.println("10진수:" + a);
+		System.out.println("8진수: %o", a);
+	}
+
+}

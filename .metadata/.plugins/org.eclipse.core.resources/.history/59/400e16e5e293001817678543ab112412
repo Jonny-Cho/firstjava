@@ -1,0 +1,30 @@
+
+public class Main {
+	
+	//상수 정의
+	final static double PI = 3.141592;
+	
+	//오버플로우
+	final static int INT_MAX = 2147483647;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int intType = 100;
+		double doubleType = 150.5;
+		String stringType = "조준희";
+		
+		System.out.println(intType);
+		System.out.println(doubleType);
+		System.out.println(stringType);
+		
+		// 상수활용
+		int r = 30;
+		System.out.println(r * r * PI);
+		
+		int a = INT_MAX;
+		System.out.println(a);
+		//int가 가지는 최대값을 넘으면 오류 (최소값이 출력)
+		System.out.println(a + 1);
+	}
+
+}
